@@ -75,10 +75,10 @@ document.addEventListener('DOMContentLoaded', function() {
             statsElementDamage.className = 'unit-stats'; // Класс для стилизации характеристик
             statsElementDamage.innerHTML = `
                 <div class="single-stat">
-                    <img class="stats-icons" src="images/stats/damage.webp">${unit.damage.toLocaleString('de-DE')}
+                    <img class="stats-icons" src="images/stats/Damage.webp">${unit.damage.toLocaleString('de-DE')}
                 </div>
                 <div class="single-stat">
-                    <img class="stats-icons" src="images/stats/spa.webp">${unit.spa}
+                    <img class="stats-icons" src="images/stats/SPA.webp">${unit.spa} //spa
                 </div>
                 <div class="single-stat">
                     <img class="stats-icons" src="images/stats/dps.webp">${(Math.round(unit.damage/unit.spa)).toLocaleString('de-DE')}
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
             statsElementRange.className = 'unit-stats'; // Класс для стилизации характеристик
             statsElementRange.innerHTML = `
                 <div class="single-stat">
-                    <img class="stats-icons" src="images/stats/range.webp">${unit.range}
+                    <img class="stats-icons" src="images/stats/Range.webp">${unit.range}
                 </div>
                 <div class="single-stat">
                     ${unit.aoe}
